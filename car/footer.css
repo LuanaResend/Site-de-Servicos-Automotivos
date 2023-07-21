@@ -1,0 +1,18 @@
+/* Estilos do footer */
+footer {
+    background-color: #e70002;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: -1500px;
+    left: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      bottom: -2400px ;
+    }
+  }
+  

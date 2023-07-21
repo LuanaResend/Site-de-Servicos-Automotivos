@@ -1,0 +1,66 @@
+.mobile-menu {
+    display: none;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .mobile-menu li {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    
+  }
+
+  .mobile-menu li a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+  /* Estilos do header */
+  header {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 15px #00000027;
+    color: #292828;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .menu-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+  }
+
+  .nav-links li a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+
+  .nav-links li a:hover {
+    color: #e70002;
+  }

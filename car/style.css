@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Estilos do conteúdo (dashboard) */
+  .dashboard {
+    padding: 20px;
+    margin-top: 60px; /* Para garantir que o conteúdo não fique escondido sob o header */
+  }
+  
+  section {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+  }
+  
+  h1 {
+    margin-left: 85px;
+    margin-top: 150px;
+  }
+  
+  .dashboard h1 {
+    margin-left: 85px;
+    margin-top: 50px;
+  }
+  
+  .card {
+    background-color: #e9e5e5;
+    margin: 10px;
+    flex: 1 1 300px; /* Define o tamanho proporcional e mínimo de 300px */
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card h1 {
+    color: #e70002;
+    text-align: center;
+    margin-left: 2px;
+  }
+  
+  .card p {
+    line-height: 1.2;
+  }
+  .services-and-more {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #333;
+    padding-left: 15px;
+    z-index: -1;
+  }
+  
+  .services-and-more::before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 5;
+    width: 5px;
+    height: 80%;
+    background-color: #e70002;
+  }  
+
+  .services-and-more ul{
+    margin-bottom: 200px;
+  }
+
+  button.svelte-lyhjhx.svelte-lyhjhx.svelte-lyhjhx {
+    background-color: #e70002 !important;
+  }
+
+  .header.svelte-lyhjhx.svelte-lyhjhx.svelte-lyhjhx {
+    background-color: #ffffff00 !important;
+    
+  }
+
+  .header.svelte-lyhjhx p.svelte-lyhjhx.svelte-lyhjhx {
+    color: #000000 !important;
+  }
+  .svelte-lyhjhx a{ 
+    display: none;
+  }
